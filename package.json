@@ -1,0 +1,21 @@
+{
+  "name": "desafio-4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:percy": "percy exec -- jest -i './tests-snapshots/__tests__/percy.test.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "prettier": "^3.4.1"
+  },
+  "dependencies": {
+    "@percy/cli": "^1.30.3",
+    "@percy/puppeteer": "^2.0.2",
+    "jest": "^29.7.0",
+    "jest-image-snapshot": "^6.4.0",
+    "puppeteer": "^23.9.0"
+  }
+}
