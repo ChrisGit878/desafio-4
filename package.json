@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test:percy": "percy exec -- jest -i './tests-snapshots/__tests__/percy.test.js'"
+    "test:percy": "percy exec -- jest ./tests-snapshots/__tests__/percy.test.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +14,7 @@
   "dependencies": {
     "@percy/cli": "^1.30.3",
     "@percy/puppeteer": "^2.0.2",
+    "desafio-4": "file:",
     "jest": "^29.7.0",
     "jest-image-snapshot": "^6.4.0",
     "puppeteer": "^23.9.0"

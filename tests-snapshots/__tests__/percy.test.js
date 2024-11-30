@@ -1,5 +1,5 @@
 const puppeteer = require("puppeteer");
-const { percySnapshot } = require("@percy/puppeteer");
+const percySnapshot  = require("@percy/puppeteer");
 
 describe("Percy test", () => {
   let browser, page;
